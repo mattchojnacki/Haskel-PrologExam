@@ -1,0 +1,102 @@
+Zadanie 1
+=========
+Mamy danych 10 miast opisanych nastepujaco: 
+
+huge, 4, 6, 4, 5
+
+small, -3, -4, 1, 2
+
+green, 10, 10, 4, 3
+
+border, -5, 10, 4, 1
+
+center, 2, 1, 4, 3
+
+other, -7, 7, 5, 5
+
+windy, -10, -8, 4, 5
+
+sunny, 3, 5, 2, 1
+
+good, 0, 1, 4, 2
+
+bad, 0, 0, 2, 0 
+
+gdzie parametry to:
+
+- nazwa
+- X pozycja
+- Y pozycja
+- powierzchnia
+- populacja
+zdefiniowaæ predykaty:
+
+		gestoscZaludnienia(Nazwa,Wynik)
+
+		odlegloscMiasto(Nazwa1,Nazwa2,Wynik)
+		
+		miastoGraniczne(X)
+
+gdzie odlegloscMiasto pomiedzy punktami (X1,Y1) i (X2,Y2) liczona jest ze wzoru |X1-X2|+|Y1-Y2|,
+a miasto graniczne to takie, ze |X|=10 lub |Y|=10.	 
+
+Zadanie 2
+=========
+Dana jest nastepujaca baza wiedzy:
+
+
+owns(john,book(wuthering_heights, author(emily,bronte))).
+owns(adam,book(harry_potter, author(kate,bronte))).
+owns(jacek,book(teoria_obliczen, author(mary,smith))).
+owns(bartek,book(paradygmaty, author(pavlo,symonenko))).
+owns(john,book(kuchniaswiata, author(emily,bronte))).
+
+
+
+1. Wyswietl wszystkie ksiazki ktore posiada john.
+2. Wyswietl wszystkie tytuly ksiazek z bazy wiedzy.
+3. Wyswietl wszystkie ksiazki ktore napisala emily bronte.
+4. Wyswietl autora i posiadacza ksiazki paradygmaty.
+5. Wyswietl wszystkie imiona skojarzone z nazwiskiem bronte.
+
+Zadanie 3
+=========
+Zdefiniuj funkcje, ktora zwroci pierwszy, drugi, przedostatni i ostatni element z listy.
+
+
+Zadanie 4
+=========
+Zdefiniuj funkcje rekurencyjna, która zliczy sume elementow listy liczb calkowitych.
+Zdefiniuj funkcje rekurencyjna, która zliczy sume dodatnich elementów listy liczb calkowitych.
+
+Zadanie 5
+=========
+Zdefiniuj funkcje ktra odwroci dowolna liste.
+
+Zadanie 6
+=========
+Zdefiniuj funkcje, ktora doda na poczatek listy dowolny element.
+Zdefiniuj funkcje, ktora doda na koniec listy dowolny element.
+
+Zadanie 7
+=========
+Napisac program kalkulator ktory odczyta dwie liczby z klawiatury podane przez uzytkownika
+i wypisze na ekran sume, roznice, iloczyn oraz iloraz tych liczb. 
+Program ma uwzgledniac dzielenie przez zero oraz ma dzialac w petli nieskonczonej tak
+dlugo az uzytkownik wprowadzi ustalany znak z klawiatury.
+
+Zadanie 8
+=========
+Napisz program krory odczyta zawartosc pliku tekstowego i zapisze do drugiego
+pliku liczbe znakow kazdego wyrazu z pliku pierwszego oraz liczbe wszystkich
+znakow z pliku pierwszego (wszystkie wyrazy musza byc zakonczone kropka).
+
+Zadanie 9
+=========
+Napisz program, ktory po wczytaniu od uzytkownika liczby naturalnej N
+wypisze na ekran wynik symulacji rzutu N koscmi do gry o oczkach 1-6.
+
+Zadanie 10
+==========
+Napisz program ktory wywolany z lista list liczb calkowitych posortuje kazda 
+z list rosnaco.

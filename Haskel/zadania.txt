@@ -1,0 +1,160 @@
+Zadanie 1
+=========
+
+Zdefiniuj funkcje
+
+	writeS
+
+ktora wypisze podany napis na ekran. Na przyklad wywolujac
+
+	writeS "Robert"
+
+powinnismy zobaczyc
+	
+	"Hello Robert!"
+
+Wskazowka: Do laczenia dwoch napisow w Haskelli uzywamy operatora ++.
+
+
+Zadanie 2
+=========
+
+Uzywajac skladni wyrazenia kwantyfikatorowego zdefiniowac funkcje
+
+		unitaryN
+
+ktora utworzy macierz jednostkowa.
+
+Na przyklad, jezeli wywolamy
+
+		unitaryN 5
+
+powinnismy zobaczyc na ekranie
+
+	[[1,0,0,0,0],[0,1,0,0,0],[0,0,1,0,0],[0,0,0,1,0],[0,0,0,0,1]].
+
+Wskazowka: Mozna uzyc skladni polecenia if else
+
+	if warunek then instrukcja1 else instrukcja2.
+
+	
+Zadanie 3
+=========
+
+Utworz liste liczb trzycyfrowych, podzielnych przez 3 o roznych cyfrach, tj. liste
+
+		[102,105,…,987].
+	
+	
+Zadanie 4
+=========
+
+Zdefiniuj funkcje 	
+
+		f :: Int -> Int
+
+gdzie
+
+		f(1) = 3
+
+		f(2) = -4
+		
+		f(3) = 11
+		
+		f(x) = 0 o ile tylko x <> 1, x <> 2 i x <> 3.
+	
+	
+Zadanie 5
+=========
+
+Zdefiniuj funkcje
+
+		min3 :: Int -> Int -> Int -> Int
+
+ktora zwraca minimum trzech liczb.
+
+
+Zadanie 6
+=========	
+
+Napisz program 
+
+
+		readFromKeyboard
+
+
+ktory czyta trzy liczby z klawiatury i wyswietla na ekran ich sume.
+
+
+Zadanie 7
+=========
+
+Zdefiniuj rekurencyjna funkcje
+
+
+		sumaDodElemListy :: [Int] -> Int
+
+		
+ktora zwraca sume wszystkich dodatnich liczb z listy.
+
+
+Zadanie 8
+=========
+
+Zdefiniuj funkcje
+
+		czyPierwsza
+		
+ktora sprawdzi czy liczba podana jako argument jest pierwsza czy nie.
+
+
+Zadanie 9
+=========
+
+Napisz funkcje ktora zwroci pierwszy, drugi, ostatni i przedostatni element dowolnej listy.
+
+
+Zadanie 10
+==========
+
+Zdefiniuj funkcje ktora dla zadanej listy list wypisze tylko te listy ktore sa niepuste.
+
+
+Zadanie 11
+==========
+
+Zdefiniuj funkcje ktora sprawdzi czy dany wyraz jest palindromem.
+
+
+Zadanie 12
+=========		
+
+Napisz program ktory odczyta dany plik tekstowy i zapisze do drugiego pliku liczbe:
+a) znakow
+b) wyrazow
+c) linii
+z pliku pierwszego.
+
+Zadanie 13
+==========
+
+Napisz program wywolywany z lista parametrow wejsciowych 
+
+    [Imie, Nazwisko, Wzrost, Waga].
+	
+Program ma wypisywac na ekran:
+ 
+    Witaj Imie Nazwisko (pierwszy znak duzy reszta male w Imie Nazwisko)
+	Twoj wspolczynnik bmi wynosi: ...
+	Twoja waga ...
+	
+Zadanie 14
+==========
+
+Stosujac generator liczb losowych napisac program ktory zrobi symulacje rzutu czterema kosmi do gry.
+
+Zadanie 15
+==========
+
+Napisac program ktory zaszyfruje dowolny tekst pisany malymi literami alfabetu a..z uzywajac
+szyfru Cezara z przesunieciem n.	
